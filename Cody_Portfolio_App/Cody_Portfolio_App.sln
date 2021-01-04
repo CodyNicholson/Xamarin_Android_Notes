@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cody_Portfolio_App", "Cody_Portfolio_App\Cody_Portfolio_App.csproj", "{322C879A-B177-48F8-97A5-8FB4047DE360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cody_Portfolio_App_Core", "Cody_Portfolio_App_Core\Cody_Portfolio_App_Core.csproj", "{53C2464D-AF80-4BFC-AA83-3E5C708EC85E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{322C879A-B177-48F8-97A5-8FB4047DE360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322C879A-B177-48F8-97A5-8FB4047DE360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322C879A-B177-48F8-97A5-8FB4047DE360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322C879A-B177-48F8-97A5-8FB4047DE360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C2464D-AF80-4BFC-AA83-3E5C708EC85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C2464D-AF80-4BFC-AA83-3E5C708EC85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C2464D-AF80-4BFC-AA83-3E5C708EC85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C2464D-AF80-4BFC-AA83-3E5C708EC85E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAE5626F-DD13-47CC-8DE9-90FB88146270}
+	EndGlobalSection
+EndGlobal
