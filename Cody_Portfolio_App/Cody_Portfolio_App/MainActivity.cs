@@ -7,7 +7,7 @@ using Android.Widget;
 
 namespace Cody_Portfolio_App
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "Cody Portfolio App", Theme = "@style/AppTheme")]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)

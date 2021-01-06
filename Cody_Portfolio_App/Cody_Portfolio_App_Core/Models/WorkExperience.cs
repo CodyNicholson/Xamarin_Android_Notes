@@ -1,9 +1,10 @@
 ﻿using System;
+
 namespace Cody_Portfolio_App_Core.Models
 {
     public class WorkExperience
     {
-        public int WorkExperienceId { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string CompanyName { get; set; }
         public string CompanyLocation { get; set; }
