@@ -8,8 +8,6 @@ namespace Cody_Portfolio_App_Core.Repositories
 {
     public class ProjectRepository
     {
-        private ProjectDAO _projectDAO;
-
         private static readonly List<Project> AllProjects = new List<Project>()
         {
             new Project {Id = 1, Name = "International Space Station Tracker", ImageUrl = "https://raw.githubusercontent.com/CodyNicholson/ISS_Tracking_Project/master/flask_app/static/img/srcimg.jpg", StartDate = new DateTime(2020, 9, 1), EndDate = null, Description = "tracking the space station" },

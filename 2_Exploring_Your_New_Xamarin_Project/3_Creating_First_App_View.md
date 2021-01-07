@@ -6,9 +6,27 @@
 
 OnCreate, as the name implies, is really going to be called upon creation of this activity. So this code will execute very early in the lifecycle of this main activity. Now there's a very important line here that we'll look at now and that's **SetContentView**. Remember the activity is just code that is executing. It's not really the visible part of our application, that is covered by a view. 
 
-**ContentView** is really used to specify which view should be really showing at this point. **SetContentView** accepts an integer that comes from the **Resource.Designer.cs** file. In SetContentView, we pass **Resource.Layout.activity_main**. This maps to the file at: **Resource/Layout/activity_main.axml**. That is going to be the view that is going to be associated with this activity. When we open an axml in Visual Studio, we will get this designer interface, this split view that shows on the left in this case my preview window, and on the right, the XML code that makes up the UI of the application. 
+**ContentView** is really used to specify which view should be really showing at this point. **SetContentView** accepts an integer that comes from the **Resource.Designer.cs** file. In SetContentView, we pass **Resource.Layout.activity_main**. This maps to the file at: **Resource/Layout/activity_main.axml**. That is going to be the view that is going to be associated with this activity. When we open an axml in Visual Studio, we will get this designer interface, this split view that shows on the left in this case my preview window, and on the right, the XML code that makes up the UI of the application.
 
-Now let's start adding some code in here. Visual Studio supports a toolbox and we can for example, drag a button onto the designer interface. Code is being generated inside of the XML as well. I will give my button a name. Let's call it *MyButton*. Now pay attention; the Android id is not just MyButton, it's @+id/MyButton. This references the Id from the Resource.Designer.cs file and is the unique identifier Android uses to select the button.
+Now let's start adding some code in here. Visual Studio supports a toolbox and we can for example, drag a button onto the designer interface. Code is being generated inside of the XML as well. I will give my button a name. Let's call it **MyButton**. Now pay attention; the Android id is not just MyButton, it's @+id/MyButton. This references the Id from the Resource.Designer.cs file and is the unique identifier Android uses to select the button. Our activity_main.axml looks like this:
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/MyButton"/>
+</LinearLayout>
+```
 
 In the activity code, we reference the button like this:
 

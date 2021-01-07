@@ -1,5 +1,4 @@
-﻿
-using Cody_Portfolio_App_Core.Models;
+﻿using Cody_Portfolio_App_Core.Models;
 using Cody_Portfolio_App_Core.DAO;
 using Android.App;
 using Android.OS;
@@ -21,7 +20,7 @@ namespace Cody_Portfolio_App
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.project);
+            SetContentView(Resource.Layout.single_project);
 
             _projectDAO = new ProjectDAO();
             _selectedProject = _projectDAO.GetFirstProject();

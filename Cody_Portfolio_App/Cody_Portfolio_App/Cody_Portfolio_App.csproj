@@ -102,7 +102,7 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\project.axml">
+    <AndroidResource Include="Resources\layout\single_project.axml">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>

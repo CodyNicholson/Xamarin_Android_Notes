@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Cody_Portfolio_App_Core.Models;
+﻿using Cody_Portfolio_App_Core.Models;
 using Cody_Portfolio_App_Core.Repositories;
 
 namespace Cody_Portfolio_App_Core.DAO
